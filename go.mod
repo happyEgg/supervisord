@@ -24,4 +24,6 @@ require (
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 )
 
+replace github.com/ochinchina/supervisord => github.com/happyEgg/supervisord v0.6.3
+
 go 1.13
