@@ -3,12 +3,13 @@ package logger
 import (
 	"errors"
 	"fmt"
-	"github.com/ochinchina/supervisord/events"
-	"github.com/ochinchina/supervisord/faults"
 	"io"
 	"os"
 	"strings"
 	"sync"
+
+	"github.com/happyEgg/supervisord/events"
+	"github.com/happyEgg/supervisord/faults"
 )
 
 //implements io.Writer interface

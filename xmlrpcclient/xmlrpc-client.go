@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/ochinchina/supervisord/types"
+	"github.com/happyEgg/supervisord/types"
 
 	"github.com/ochinchina/gorilla-xmlrpc/xml"
 )

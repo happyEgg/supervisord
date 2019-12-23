@@ -2,12 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/ochinchina/supervisord/config"
-	"github.com/ochinchina/supervisord/types"
-	"github.com/ochinchina/supervisord/xmlrpcclient"
 	"net/http"
 	"os"
 	"strings"
+	"supervisord/xmlrpcclient"
+
+	"github.com/happyEgg/supervisord/config"
+	"github.com/happyEgg/supervisord/types"
+	//"github.com/happyEgg/supervisord/xmlrpcclient"
 )
 
 type CtlCommand struct {

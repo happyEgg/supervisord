@@ -2,12 +2,6 @@ package process
 
 import (
 	"fmt"
-	"github.com/ochinchina/filechangemonitor"
-	"github.com/ochinchina/supervisord/config"
-	"github.com/ochinchina/supervisord/events"
-	"github.com/ochinchina/supervisord/logger"
-	"github.com/ochinchina/supervisord/signals"
-	log "github.com/sirupsen/logrus"
 	"io"
 	"os"
 	"os/exec"
@@ -19,6 +13,13 @@ import (
 	"sync/atomic"
 	"syscall"
 	"time"
+
+	"github.com/happyEgg/supervisord/config"
+	"github.com/happyEgg/supervisord/events"
+	"github.com/happyEgg/supervisord/logger"
+	"github.com/happyEgg/supervisord/signals"
+	"github.com/ochinchina/filechangemonitor"
+	log "github.com/sirupsen/logrus"
 )
 
 type ProcessState int

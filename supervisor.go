@@ -2,20 +2,20 @@ package main
 
 import (
 	"fmt"
-	"github.com/ochinchina/supervisord/config"
 	"net/http"
 	"os"
 	"strings"
 	"sync"
 	"time"
 
-	"github.com/ochinchina/supervisord/events"
-	"github.com/ochinchina/supervisord/faults"
-	"github.com/ochinchina/supervisord/logger"
-	"github.com/ochinchina/supervisord/process"
-	"github.com/ochinchina/supervisord/signals"
-	"github.com/ochinchina/supervisord/types"
-	"github.com/ochinchina/supervisord/util"
+	"github.com/happyEgg/supervisord/config"
+	"github.com/happyEgg/supervisord/events"
+	"github.com/happyEgg/supervisord/faults"
+	"github.com/happyEgg/supervisord/logger"
+	"github.com/happyEgg/supervisord/process"
+	"github.com/happyEgg/supervisord/signals"
+	"github.com/happyEgg/supervisord/types"
+	"github.com/happyEgg/supervisord/util"
 
 	log "github.com/sirupsen/logrus"
 )
